@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiệp Mời Cưới - Đình Quyền & Phan Bình</title>
+    <link rel="stylesheet" href="thiepcuoi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;700&family=Taviraj:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <audio id="background-music" loop="">
+        <source src="music.mp3" type="audio/mpeg">
+        Trình duyệt không hỗ trợ HTML5 Audio.
+    </audio>
+    <button id="toggle-music" aria-label="Bật/tắt nhạc">🔊</button>
+
+
+
+    
+
+    <!-- Opening Gate -->
+    <div id="gate-container">
+        <div class="gate-left"></div>
+        <div class="gate-right"></div>
+        <div class="gate-content">
+            <p>Chạm để mở thiệp</p>
+            <i class="fas fa-heart"></i>
+        </div>
+    </div>
+
+    <!-- Fixed Side Lines -->
+    <div class="fixed-side-lines"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="content">
+            <h3 class="sub-title">Thiệp Mời Cưới</h3>
+            <h1 class="main-title">Đình Quyền <small>&</small> Phan Bình</h1>
+            <p class="date">26 . 01 . 2026</p>
+            <p class="lunar-date">(Tức ngày 08 tháng 12 năm 2025 âm lịch)</p>
+            <img src="image.png" alt="Ảnh Cưới" class="hero-image" loading="lazy">
+        </div>
+    </section>
+
+    <!-- Invitation Section -->
+    <section class="invitation section-padding">
+        <div class="container">
+            <h2 class="section-title">Thân mời: <span id="guest-name">Quý Khách</span></h2>
+            <p class="intro-text">Trân trọng thông báo tin vui và kính mời quý khách tới tham dự lễ cưới của chúng tôi.</p>
+            
+            <div class="couple-info">
+                <div class="groom">
+                    <div class="img-box">
+                        <img src="image copy 6.png" alt="Chú Rể" loading="lazy">
+                    </div>
+                    <h3>Đình Quyền</h3>
+                    <p class="family-role">Nhà Trai</p>
+                    <div class="parents">
+                        <p>Ông: Nguyễn Đình Hải</p>
+                        <p>Bà: Bùi Thị Thanh</p>
+                    </div>
+                </div>
+                
+                <div class="heart-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+
+                <div class="bride">
+                    <div class="img-box">
+                        <img src="image copy.png" alt="Cô Dâu" loading="lazy">
+                    </div>
+                    <h3>Phan Bình</h3>
+                    <p class="family-role">Nhà Gái</p>
+                    <div class="parents">
+                        <p>Ông: Phan Bá Thành</p>
+                        <p>Bà: Nguyễn Thị Phương Lan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events section-padding bg-light">
+        <div class="container">
+            
+            
+            <div class="event-cards">
+                <div class="card">
+                    <h3> Tham Gia Lễ Thành Hôn</h3>
+                    <div class="wedding-time">
+                        <div class="time-top">11 giờ 00’</div>
+                    
+                        <div class="time-main">
+                            <div class="time-left">Thứ Hai</div>
+                    
+                            <div class="time-center">
+                                <div class="day">26</div>
+                                <div class="month">Tháng 01</div>
+                            </div>
+                    
+                            <div class="time-right">Năm 2026</div>
+                        </div>
+                    
+                        <div class="time-lunar">( Tức ngày 08 tháng 12 năm 2025 Âm lịch )</div>
+                        
+                        <!-- Calendar HTML -->
+                        <div class="calendar-box">
+                            <div class="calendar-header">Tháng 01 - 2026</div>
+                            <div class="calendar-weekdays">
+                                <div>T2</div><div>T3</div><div>T4</div><div>T5</div><div>T6</div><div>T7</div><div>CN</div>
+                            </div>
+                            <div class="calendar-days">
+                                <div></div><div></div><div></div>
+                                <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div>
+                                <div>8</div><div>9</div><div>10</div><div>11</div><div>12</div><div>13</div><div>14</div>
+                                <div>15</div><div>16</div><div>17</div><div>18</div><div>19</div><div>20</div><div>21</div>
+                                <div>22</div><div>23</div><div>24</div><div>25</div><div class="active-day">26</div><div>27</div><div>28</div>
+                                <div>29</div><div>30</div><div>31</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Địa điểm tổ chức </h3>
+                       <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p class="address-text">xóm Nam Sơn,xã Nghĩa Hành,Tỉnh nghệ An</p>
+                        <iframe class="map-frame" src="https://maps.google.com/maps?q=18.99640,105.1584&hl=vi&z=14&amp;output=embed" allowfullscreen="" loading="lazy"></iframe>
+                    <a href="https://www.google.com/maps?q=18.99640,105.1584" target="_blank" class="btn-map">Xem bản đồ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Album Section -->
+    <section class="album section-padding">
+        <div class="container">
+            <h2 class="section-title">Album Ảnh Cưới</h2>
+            <div class="gallery">
+                <img src="image copy 2.png" alt="Album 1" loading="lazy">
+                <img src="image copy 3.png" alt="Album 2" loading="lazy">
+                <img src="image copy 4.png" alt="Album 3" loading="lazy">
+                <img src="image copy 5.png" alt="Album 4" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="rsvp section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-envelope" style="margin-right: 10px;"></i> Gửi Lời Chúc & Xác Nhận</h2>
+            <p style="text-align: center; font-family: var(--font-script); font-size: 1.8rem; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; color: #c12f2f;">
+                Hãy xác nhận sự có mặt của bạn để gia đình chúng tôi chuẩn bị đón tiếp một cách chu đáo nhất.<br>Chân thành cảm ơn!
+            </p>
+            <form id="rsvp-form" class="rsvp-form">
+                <input type="text" id="name" placeholder="Tên Quý Khách" required>
+                <select id="status">
+                    <option value="tham_du">Tôi sẽ tham dự</option>
+                    <option value="ban">Tôi bận mất rồi</option>
+                </select>
+                <textarea id="message" placeholder="Lời nhắn gửi..."></textarea>
+                <button type="submit" class="btn-submit">Gửi Xác Nhận</button>
+                <button type="button" class="btn-gift">
+                    
+                    <span>Gửi mừng cưới</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Trân trọng cảm ơn!</p>
+        <p>Đình Quyền & Phan Bình</p>
+    </footer>
+
+    <!-- Gift Popup -->
+    <div id="gift-popup" class="popup-overlay">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3>Mừng cưới</h3>
+            <p>Bạn có thể gửi quà mừng tới cô dâu chú rể qua mã QR dưới đây. Xin chân thành cảm ơn!</p>
+            <img src="image copy 7.png" alt="Mã QR Mừng cưới">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const audio = document.getElementById("background-music");
+            const btn   = document.getElementById("toggle-music");
+
+            if (audio && btn) {
+                audio.volume = 0.8;
+                function startRotate() { btn.style.animation = "rotate 2s linear infinite"; }
+                function stopRotate() { btn.style.animation = "none"; }
+
+                btn.addEventListener("click", () => {
+                    if (audio.paused) {
+                        audio.play();
+                        btn.textContent = "🔊";
+                        startRotate();
+                    } else {
+                        audio.pause();
+                        btn.textContent = "🔇";
+                        stopRotate();
+                    }
+                });
+
+                function tryPlay() { if (audio.paused) { audio.play().then(() => { btn.textContent = "🔊"; startRotate(); }).catch(() => {}); } }
+                window.addEventListener("scroll", tryPlay, { once: true });
+                document.addEventListener("click", tryPlay, { once: true });
+                document.addEventListener("touchstart", tryPlay, { once: true });
+            }
+        });
+    </script>
+    <script id="script_event_data" type="application/json">{"HEADLINE3":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"HEADLINE4":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"IMAGE3":{"a":"image","F":"fadeInRight","C":"0s"},"HEADLINE5":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE6":{"option.is_product_mapping_name_custom":true,"a":"headline"},"IMAGE5":{"a":"image","D":"fadeInDown","A":"0s"},"IMAGE8":{"a":"image","D":"fadeInDown","A":"1s"},"IMAGE9":{"a":"image","F":"fadeInDown","C":"4s"},"HEADLINE8":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE9":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE10":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE11":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE14":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"HEADLINE15":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeIn","C":"0s"},"HEADLINE16":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInLeft","C":"0s"},"HEADLINE17":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"HEADLINE18":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInRight","C":"0s"},"HEADLINE19":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"IMAGE30":{"a":"image","F":"pulse","C":"0s"},"IMAGE31":{"a":"image","D":"fadeInRight","A":"1s"},"IMAGE32":{"a":"image","D":"fadeInLeft","A":"1s"},"HEADLINE20":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInRight","C":"0s"},"HEADLINE21":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE22":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"HEADLINE23":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInLeft","C":"0s"},"HEADLINE24":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE25":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"HEADLINE35":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE36":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE37":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE38":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE39":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE40":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE41":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE42":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"HEADLINE43":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInRight","C":"0s"},"HEADLINE44":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"BUTTON_TEXT4":{"option.is_product_mapping_name_custom":true,"a":"headline"},"BUTTON4":{"a":"button","F":"pulse","C":"0s"},"FORM_ITEM2":{"a":"form_item","bS":"text","bQ":1},"FORM_ITEM5":{"a":"form_item","bS":"textarea","bQ":4},"FORM2":{"option.use_data_leads":true,"option.dynamic_form_config":"&#123;&#34;configs&#34;:[],&#34;default_actions&#34;:[&#123;&#34;text_thankyou_value&#34;:&#34;Cảm ơn bạn rất nhiều! Hân hạnh được đón tiếp !&#34;,&#34;type&#34;:&#34;form_open_popup&#34;,&#34;no_delete&#34;:true,&#34;id_open_popup&#34;:&#34;POPUP4&#34;&#125;]&#125;","a":"form","bP":"69085c325349290012b8eeef","bM":true,"by":true,"bx":true},"HEADLINE45":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown"},"IMAGE54":{"a":"image","F":"fadeInRight","C":"0s"},"IMAGE56":{"a":"image","F":"fadeInLeft","C":"0s"},"BUTTON_TEXT9":{"option.is_product_mapping_name_custom":true,"a":"headline"},"BUTTON9":{"a":"button","cs":[{"dr":"action","dw":"POPUP1","a":"popup"}],"F":"pulse","C":"0s"},"POPUP1":{"a":"popup","X":"default","U":"background-color: rgba(0, 0, 0, 0.5);"},"IMAGE136":{"a":"image","F":"fadeInRight","C":"1s"},"IMAGE137":{"a":"image","F":"fadeInLeft","C":"1s"},"HEADLINE48":{"option.is_product_mapping_name_custom":true,"a":"headline","D":"fadeInDown","A":"1s"},"HEADLINE49":{"option.is_product_mapping_name_custom":true,"a":"headline","D":"flipInY","A":"1s"},"GROUP82":{"a":"group","D":"fadeInUp","A":"0s"},"GROUP86":{"a":"group","D":"fadeInUp","A":"0s"},"IMAGE4":{"a":"image","D":"fadeInDown","A":"0s"},"GROUP98":{"a":"group","D":"fadeInRight","A":"0s"},"GROUP101":{"a":"group","D":"fadeInLeft","A":"0s"},"SHAPE1":{"a":"shape","D":"pulse","A":"1s"},"SHAPE2":{"a":"shape","cs":[{"dr":"action","dw":"POPUP2","a":"popup"}]},"SHAPE3":{"a":"shape","cs":[{"dr":"action","dv":"_blank","dw":"https://www.tiktok.com/@duylinhwedding186","a":"link"}]},"SHAPE4":{"a":"shape","cs":[{"dr":"action","dv":"_blank","dw":"https://www.facebook.com/zuylinh.vn","a":"link"}]},"HEADLINE135":{"option.is_product_mapping_name_custom":true,"a":"headline"},"POPUP2":{"a":"popup","X":"default","U":"background-color: rgba(0, 0, 0, 0.5);"},"HEADLINE136":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"IMAGE196":{"a":"image","F":"fadeInDown","C":"0s"},"HEADLINE144":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"IMAGE197":{"a":"image","D":"fadeInDown","A":"1s"},"HEADLINE145":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"FORM_ITEM7":{"a":"form_item","bS":"select","bQ":3},"HEADLINE146":{"option.is_product_mapping_name_custom":true,"a":"headline"},"POPUP4":{"a":"popup","X":"default","U":"background-color: rgba(0, 0, 0, 0.5);"},"HEADLINE147":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"HEADLINE162":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInUp","C":"0s"},"BUTTON_TEXT10":{"option.is_product_mapping_name_custom":true,"a":"headline"},"BUTTON10":{"a":"button","cs":[{"dr":"action","dv":"_blank","dw":"https://maps.app.goo.gl/GJxQoXUeAPqaUTjdA","a":"link"}],"F":"pulse","C":"0s"},"HEADLINE163":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"flipInY","C":"0s"},"POPUP5":{"a":"popup","X":"default","U":"background-color: rgba(0, 0, 0, 0.5);"},"HEADLINE164":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown"},"HEADLINE165":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown"},"BUTTON_TEXT11":{"option.is_product_mapping_name_custom":true,"a":"headline"},"BUTTON11":{"a":"button","cs":[{"dr":"action","dw":"POPUP2","a":"popup"}],"F":"pulse","C":"0s"},"IMAGE202":{"a":"image","F":"fadeInRight","C":"0s"},"IMAGE203":{"a":"image","F":"fadeInLeft","C":"0s"},"HEADLINE173":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"IMAGE205":{"a":"image","F":"fadeInRight","C":"0s"},"IMAGE206":{"a":"image","F":"fadeInLeft","C":"0s"},"HEADLINE174":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInRight","C":"0s"},"HEADLINE175":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE176":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"HEADLINE177":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInLeft","C":"0s"},"HEADLINE178":{"option.is_product_mapping_name_custom":true,"a":"headline"},"HEADLINE179":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"HEADLINE180":{"option.is_product_mapping_name_custom":true,"a":"headline","F":"fadeInDown","C":"0s"},"IMAGE210":{"a":"image","F":"fadeInRight","C":"0s"},"IMAGE211":{"a":"image","F":"fadeInLeft","C":"0s"},"IMAGE212":{"a":"image","F":"fadeInRight","C":"0s"},"IMAGE213":{"a":"image","F":"fadeInLeft","C":"0s"}}</script>
+    <script id="script_ladipage_run" type="text/javascript">(function () {var run = function () {if (typeof window.LadiPageScript == "undefined" || typeof window.ladi == "undefined" || window.ladi == undefined) {setTimeout(run, 100); return;}window.LadiPageApp = window.LadiPageApp || new window.LadiPageAppV2();window.LadiPageScript.runtime.ladipage_id = '69085a955349290012b8aa68';window.LadiPageScript.runtime.publish_platform = 'LADIPAGEDNS';window.LadiPageScript.runtime.is_mobile_only = true;window.LadiPageScript.runtime.version = '1762485905423';window.LadiPageScript.runtime.cdn_url = 'https://w.ladicdn.com/v5/source/';window.LadiPageScript.runtime.DOMAIN_SET_COOKIE = ["ziuwedding.site"];window.LadiPageScript.runtime.DOMAIN_FREE = ["preview.ldpdemo.com","ldp.page"];window.LadiPageScript.runtime.bodyFontSize = 12;window.LadiPageScript.runtime.store_id = "649340684a3700001217851c";window.LadiPageScript.runtime.store_ladiuid = "64934067c7f1780012c2a80c";window.LadiPageScript.runtime.time_zone = 7;window.LadiPageScript.runtime.currency = "VND";window.LadiPageScript.runtime.convert_replace_str = true;window.LadiPageScript.runtime.desktop_width = 960;window.LadiPageScript.runtime.mobile_width = 420;window.LadiPageScript.runtime.formdata = true;window.LadiPageScript.runtime.tracking_button_click = true;window.LadiPageScript.runtime.publish_time = 1762743813027;window.LadiPageScript.runtime.lang = "vi";window.LadiPageScript.run(true);window.LadiPageScript.runEventScroll();};run();})();</script>
+</body>
+</html>
